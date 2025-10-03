@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>page</title>
+    <title>links</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <?php
         include "components/heading.php";

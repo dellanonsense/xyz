@@ -30,6 +30,8 @@ a:hover {
 
 .snippet h1 {
     font-size: 20px;
+    font-family:'Playfair Display', serif, serif;
+    color: black;
 }
 
 @media screen and (max-width : 600px) {

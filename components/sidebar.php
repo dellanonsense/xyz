@@ -20,7 +20,7 @@
         </div>
             <h1> diary & fun </h1>
             <div class="nav">
-                <p> ♡ <a href="https://bsky.app/profile/dellanonsense.neocities.org"> microblog </a></p>
+                <p> ♡ <a href="https://bsky.app/profile/dellanonsense.xyz"> microblog </a></p>
                 <p> ♡ <a href="not_found.php"> blog </a></p>
                 <p> ♡ <a href="shrines.php"> shrines </a></p>
             </div>

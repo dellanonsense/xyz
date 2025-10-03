@@ -13,7 +13,7 @@
         </div>
         <h1> creations </h1>
         <div class="nav">
-            <p> ♡ <a href="../tories.php"> stories </a>
+            <p> ♡ <a href="../stories.php"> stories </a>
             <p> ♡ <a href="../projects.php"> projects </a></p>
             <p> ♡ <a href="../illustrations.php"> illustrations </a></p>
             <p> ♡ <a href="../not_found.php"> writing </a></p>

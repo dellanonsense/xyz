@@ -37,7 +37,7 @@
         <p> ♡ a reference of the character(s) being drawn, as well as being able to answer any questions I have to clarify the design </p>
         <p> ♡ decision on the background option the commission will have (if applicable) </p>
         <p> ♡ an understanding of my terms of service </p>
-        <h3> ♡ terms of serivice ♡ </h3>
+        <h3> ♡ terms of service ♡ </h3>
         <p style="text-align: center; font-weight: bold;"> please read entirely before commissioning </p>
         <p><b> the process:</b> we will discuss pricing/specifics, then I will send you a sketch of the drawing. after the drawing is finalized, money will be sent in full. sketch commissions will have no finalizations, and will be sent only after payment is recieved. for other types of commissions, I will then complete the drawing and send it to you. you can choose whether you want the drawing posted to my social media or kept private. </p>
         <p><b> complexity:</b> designs that are highly detailed will have a raised price that will be discussed depending on whether or not I can do it justice. </p>

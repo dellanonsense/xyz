@@ -27,6 +27,11 @@
     margin-right: 15px;
 }
 
+.text h1 {
+    font-size: 2em;
+    font-family:'Playfair Display', serif, serif;
+}
+
 .text p {
     line-height: 1;
     font-family:'Playfair Display', serif, serif;

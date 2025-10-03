@@ -9,7 +9,6 @@
             <p> ♡ <a href="index.php"> home </a></p>
             <p> ♡ <a href="about.php"> about </a></p>
             <p> ♡ <a href="commtos.php"> commissions </a></p>
-            <p> ♡ <a href="vtubing.php"> vtubing </a></p>
             <p> ♡ <a href="links.php"> links </a></p>
         </div>
         <h1> creations </h1>
@@ -23,7 +22,6 @@
             <div class="nav">
                 <p> ♡ <a href="https://bsky.app/profile/dellanonsense.neocities.org"> microblog </a></p>
                 <p> ♡ <a href="not_found.php"> blog </a></p>
-                <p> ♡ <a href="rss.xml"> rss feed </a></p>
                 <p> ♡ <a href="shrines.php"> shrines </a></p>
             </div>
             <img src="assets/sittin.webp" width="100%">

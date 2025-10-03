@@ -2,7 +2,7 @@ body {
     background-image: url("bg2.webp");
     background-repeat: repeat;
 }
-.content h1, p {
+.content h1, h3, p {
     font-family:'Playfair Display', serif, serif;
     color: black;
     text-align: center;

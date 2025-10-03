@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projectss</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link href="assets/styles.css" rel="stylesheet"/>
-    <link href="assets/sidebar.css" rel="stylesheet"/>
-    <link href="assets/header.css" rel="stylesheet"/>
+    <title>projects</title>
+    <?php
+        include "components/heading.php";
+                echo callheading ();
+            ?>
     <link href="assets/projects.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <style>
 </style>
@@ -32,8 +27,14 @@
             ?>    
             </div>
         <h1> ♡ projects ♡ </h1>
-        <p><b><a href="be-own-break.php"> BE ♡ OWN ♡ BREAK </a></b></p>
-        <p><b><a href="eulocyst.php"> eulocyst </a></b></p>
+        <img src="/assets/pinkdivider.webp" width="100%">
+        <h3> primary </h3>
+        <p><b><a href="/be-own-break.php">BE ♡ OWN ♡ BREAK</a></b></p>
+        <p><b><a href="/eulocyst.php">eulocyst</a></b></p>
+        <img src="/assets/pinkdivider.webp" width="100%">
+        <h3> others </h3>
+        <p><b><a href="/vtubing.php">vtubing</a></b> [inactive]</p>
+    </div>
     </div>
 </body>
 <script src="mobilesidebar.js"></script>

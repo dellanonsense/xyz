@@ -32,7 +32,6 @@
             <p><a href="https://bsky.app/profile/dellanonsense.xyz"> bluesky </a></p>
             <p><a href="https://ko-fi.com/dellanonsense"> ko-fi </a></p>
             <p><a href="https://toyhou.se/dellanonsense"> toyhou.se </a></p>
-            <p><a href="https://neocities.org/site/dellanonsense"> neocities </a></p>
             <p><a href="https://www.tiktok.com/@dellanonsense"> tiktok </a>[inactive]</p>
             <p><a href="https://www.pinterest.com/dellanonsense/"> pinterest </a>[inactive]</p>
             <p><a href="https://x.com/dellanonsense"> x/twitter </a>[inactive]</p>

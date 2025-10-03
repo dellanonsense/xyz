@@ -33,5 +33,5 @@
         </div>
     </div>
 </body>
-<script src="mobilesidebar.js"></script>
+<script src="../mobilesidebar.js"></script>
 </html>

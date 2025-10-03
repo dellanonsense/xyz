@@ -1,0 +1,34 @@
+body {
+    justify-content: center;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.content {
+    background-color: white;
+    width: 600px;
+    height: 800px;
+    padding: 25px;
+    border-radius: 15px;
+    grid-column: 2 / 3;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.kofi {
+    text-align: center;
+}
+
+@media screen and (max-width : 600px) {
+    body, #header, .content {
+        grid-column: 1;
+    }
+    #sidebutton {
+        grid-row: 1;
+    }
+    .content {
+        width: auto;
+        grid-row: 4;
+    }
+}

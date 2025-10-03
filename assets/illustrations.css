@@ -1,0 +1,28 @@
+body {
+    background-image: url("/assets/bg1.webp");
+    background-repeat: repeat;
+}
+
+.content h1, h3, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 45%;
+}
+
+.kofi {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width : 600px) {
+    .gallery img {
+        width: 75%;
+    }
+}

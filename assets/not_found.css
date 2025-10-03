@@ -1,0 +1,14 @@
+body {
+    background-image: url("/assets/bg1.webp");
+    background-repeat: repeat;
+}
+
+.content {
+    text-align: center;
+}
+
+p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}

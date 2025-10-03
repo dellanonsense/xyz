@@ -1,0 +1,18 @@
+body {
+    background-image: url("/assets/bg1.webp");
+    background-repeat: repeat;
+}
+
+.content h1, h3, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: #ff82ac;
+}
+
+a:hover {
+    color: #d80048;
+}

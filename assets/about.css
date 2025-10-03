@@ -1,0 +1,44 @@
+body {
+    background-image: url("/assets/bg1.webp");
+    background-repeat: repeat;
+}
+
+.content h1, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+.content a {
+    font-family:'Playfair Display', serif, serif;
+    color:  #ff82ac;
+    text-align: center;
+}
+
+a:hover {
+    font-family:'Playfair Display', serif, serif;
+    color:  #d80048;;
+}
+
+.nxtxmee {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nxtxmee a {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(127, 127, 255);
+    font-weight: bold;
+}
+
+.nxtxmee a:hover {
+    color:blue;
+}
+
+.stamps {
+    text-align: center;
+}
+
+.blinkies {
+    text-align: center;
+    margin-bottom: 15px;
+}

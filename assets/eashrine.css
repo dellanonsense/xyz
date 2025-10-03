@@ -1,0 +1,30 @@
+body {
+    background-image: url("/assets/bg4.webp");
+    background-repeat: repeat;
+}
+
+.content h1, h2 {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    line-height: 1.5;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 45%;
+}
+
+@media screen and (max-width : 600px) {
+    .gallery img {
+        width: 100%;
+    }
+}

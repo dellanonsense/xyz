@@ -1,0 +1,16 @@
+body {
+    background-image: url("/assets/sdrbg.webp");
+    background-repeat: repeat;
+}
+.content h1, h2, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+.content a {
+    color: black;
+    text-decoration: underline;
+}
+.content a:hover {
+    color: gray;
+}

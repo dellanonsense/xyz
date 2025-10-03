@@ -1,0 +1,73 @@
+body {
+    background-image: url("/assets/bg2.webp");
+    background-repeat: repeat;
+}
+
+.content h1, h2, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+
+.lateliertitle {
+    color: #ffa7c4;
+    font-family: 'Playfair Display', Serif, serif;
+    text-align: center;
+}
+
+.lateliertitle a {
+    text-decoration: underline;
+    color: #ffa7c4;
+    font-weight: bold;
+}
+.sdrtitle {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.sdrtitle a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: bold;
+}
+
+.sdrtitle a:hover {
+    color: gray;
+}
+
+.bellemoretitle {
+    color: #eb0000;
+    font-family: 'Georgia', Times, serif,;
+    text-align: center;
+}
+
+.butterflytitle {
+    color: #9800df;
+    font-family: 'EB Garamond', Serif, serif;
+    text-align: center;
+}
+
+.salvignetitle {
+    color: #af3c3c;
+    font-family: 'Neuton', Serif, serif;
+    text-align: center;
+}
+
+.aniseedtitle {
+    color: rgb(241, 212, 81);
+    font-family: 'Neuton', Serif, serif;
+    text-align: center;
+}
+
+.mediversetitle {
+    color: hotpink;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    text-align: center;
+}
+
+.damascustitle {
+    color:skyblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

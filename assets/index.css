@@ -1,0 +1,42 @@
+body {
+    background-image: url("/assets/bg1.webp");
+    background-repeat: repeat;
+}
+
+p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+}
+
+a {
+    color: #ff82ac;
+}
+
+a:hover {
+    color: #d80048;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 30%;
+}
+
+.snippet {
+    text-align: center;
+}
+
+.snippet h1 {
+    font-size: 20px;
+}
+
+@media screen and (max-width : 600px) {
+    .gallery img {
+        width: 75%;
+    }
+    #overlay {
+        height: 1195px;
+    }
+}

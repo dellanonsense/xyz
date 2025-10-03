@@ -1,0 +1,48 @@
+.header {
+    background-color: white;
+    width: 600px;
+    border-radius: 15px;
+    display: grid;
+    margin: auto;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    width: 600px;
+    padding: 15px;
+    text-align: center;
+}
+
+.divider {
+    width: 600px;
+}
+
+.pfp img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.text p {
+    line-height: 1;
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width : 600px) {
+    .header, .top, .divider {
+        display: block;
+        width: auto;
+    }
+    .pfp img {
+        padding-right: 0px;
+    }
+    .pfp {
+        text-align: center;
+    }
+}

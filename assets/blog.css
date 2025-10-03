@@ -1,0 +1,45 @@
+body {
+    background-image: url("/assets/bg3.webp");
+    background-repeat: repeat;
+}
+
+p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+}
+
+.blogtitle {
+    line-height: 0.8;
+    text-align: center;
+}
+
+a {
+    font-family:'Playfair Display', serif, serif;
+    color: #ff82ac;
+}
+
+a:hover {
+    font-family:'Playfair Display', serif, serif;
+    color: #d80048;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.titledate {
+    line-height: 0.5;
+}
+
+.titledate h3 {
+    color: #ff82ac;
+}
+
+#nextprev {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}

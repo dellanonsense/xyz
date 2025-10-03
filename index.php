@@ -4,22 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script>
-        $(function(){
-        $("#sidebar").load("/components/sidebar.html");
-        });
-        </script>
-        <script>
-        $(function(){
-        $("#header").load("/components/header.html");
-        });
-    </script>
-    <link href="/assets/styles.css" rel="stylesheet"/>
-    <link href="/assets/sidebar.css" rel="stylesheet"/>
-    <link href="/assets/header.css" rel="stylesheet"/>
-    <link href="/assets/index.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="assets/styles.css" rel="stylesheet"/>
+    <link href="assets/sidebar.css" rel="stylesheet"/>
+    <link href="assets/header.css" rel="stylesheet"/>
+    <link href="assets/index.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -27,20 +16,30 @@
 <style>
 </style>
 <body>
-    <div id="sidebutton" onclick="openNav()"><img src="/assets/openbutton.png"></div>
-    <div id="sidebar"></div>
+    <div id="sidebutton" onclick="openNav()"><img src="assets/openbutton.png"></div>
+    <div id="sidebar">
+                    <?php
+        include "components/sidebar.php";
+                echo callsidebar();
+            ?>  
+    </div>
     <div id="overlay"></div>
         <div class="content">
-        <div id="header"></div>
+            <div id="header">
+            <?php
+        include "components/header.php";
+                echo callheader();
+            ?>    
+            </div>
         <div class="current">
         <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/30221892-a-god-in-the-shed?ref=nav_sb_ss_1_17">a god in the shed</a></p>
         <p><b>currently watching:</b></p>
         <p><b>currently playing: </b><a href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/">silent hill 2</a>
     </div>
     <div class="gallery">
-        <img src="/assets/ohara lab nurse.webp" width="100%">
-        <img src="/assets/lanie repaint of character.webp" width="100%">
-        <img src="/assets/m della pog.webp" width="100%">
+        <img src="assets/ohara lab nurse.webp" width="100%">
+        <img src="assets/lanie repaint of character.webp" width="100%">
+        <img src="assets/m della pog.webp" width="100%">
     </div>
     <div class="kofi">
         <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff7aa6', 'A85246XK');kofiwidget2.draw();</script>
@@ -53,5 +52,5 @@
     </div>
     </div>
 </body>
-<script src="/mobilesidebar.js"></script>
+<script src="mobilesidebar.js"></script>
 </html>

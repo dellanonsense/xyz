@@ -4,22 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commission t.o.s</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script>
-        $(function(){
-        $("#sidebar").load("/components/sidebar.html");
-        });
-        </script>
-        <script>
-        $(function(){
-        $("#header").load("/components/header.html");
-        });
-    </script>
-    <link href="/assets/styles.css" rel="stylesheet"/>
-    <link href="/assets/sidebar.css" rel="stylesheet"/>
-    <link href="/assets/header.css" rel="stylesheet"/>
-    <link href="/assets/commtos.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="assets/styles.css" rel="stylesheet"/>
+    <link href="assets/sidebar.css" rel="stylesheet"/>
+    <link href="assets/header.css" rel="stylesheet"/>
+    <link href="assets/commtos.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -27,11 +16,21 @@
 <style>
 </style>
 <body>
-    <div id="sidebutton" onclick="openNav()"><img src="/assets/openbutton.png"></div>
-    <div id="sidebar"></div>
+    <div id="sidebutton" onclick="openNav()"><img src="assets/openbutton.png"></div>
+    <div id="sidebar">
+                    <?php
+        include "components/sidebar.php";
+                echo callsidebar();
+            ?>  
+    </div>
     <div id="overlay"></div>
     <div class="content">
-        <div id="header"></div>
+          <div id="header">
+            <?php
+        include "components/header.php";
+                echo callheader();
+            ?>    
+            </div>
         <div class="kofi">
         <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff7aa6', 'A85246XK');kofiwidget2.draw();</script>
         </div>
@@ -53,8 +52,7 @@
         <p><b> denying a commission:</b> I can deny a commission for any reason until the sketch has been finalized and payment has been sent. remember, payment is sent after the confirmation sketch (in commissions other than sketches).</p>
         <p><b> canceling a commission:</b> a commission can be canceled before payment has been sent. remember, payment is to be sent after the confirmation sketch (in commissions other than sketches). </p>
         <p><b> time:</b>I can currently promise a completed commission within 2-3 days of the sketch being finalized, if not less, unless circumstances don't allow it. I will try to be as communicative as I can. </p>
-        <p><b> edits:</b> small edits can be made to the illustration during the sketch stage (in commissions other than sketches). please try to be as clear as possible. </p>
     </div>
 </body>
-<script src="/mobilesidebar.js"></script>
+<script src="mobilesidebar.js"></script>
 </html>

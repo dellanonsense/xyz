@@ -4,22 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stories</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script>
-        $(function(){
-        $("#sidebar").load("/components/sidebar.html");
-        });
-        </script>
-        <script>
-        $(function(){
-        $("#header").load("/components/header.html");
-        });
-    </script>
-    <link href="/assets/styles.css" rel="stylesheet"/>
-    <link href="/assets/sidebar.css" rel="stylesheet"/>
-    <link href="/assets/header.css" rel="stylesheet"/>
-    <link href="/assets/stories.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="assets/styles.css" rel="stylesheet"/>
+    <link href="assets/sidebar.css" rel="stylesheet"/>
+    <link href="assets/header.css" rel="stylesheet"/>
+    <link href="assets/stories.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -27,18 +16,28 @@
 <style>
 </style>
 <body>
-    <div id="sidebutton" onclick="openNav()"><img src="/assets/openbutton.png"></div>
-    <div id="sidebar"></div>
+    <div id="sidebutton" onclick="openNav()"><img src="assets/openbutton.png"></div>
+    <div id="sidebar">
+                    <?php
+        include "components/sidebar.php";
+                echo callsidebar();
+            ?>  
+    </div>
     <div id="overlay"></div>
     <div class="content">
-        <div id="header"></div>
+          <div id="header">
+            <?php
+        include "components/header.php";
+                echo callheader();
+            ?>    
+            </div>
         <p> as someone who wants to try everything, I have a lot of stories/plots/ideas! this page will record my current brainrots and past, archived stories. </p>
         <p> some of these stories aren't as online as the others! </p>
         <p> note: my toyhouse which serves as a main hub for some stories is <b>severely out of date</b> </p>
         <h1> ♡ current stories ♡ </h1>
         <h2 class="lateliertitle"> l'atelier / dellaverse </h2>
         <p> my online facade's lore! originated for vtubing but has become for more than that. </p>
-        <h2 class="sdrtitle"><a href="/sdrandns.html"> sage deraven and the nightstalker </a></h2>
+        <h2 class="sdrtitle"><a href="sdrandns.php"> sage deraven and the nightstalker </a></h2>
         <p> my 'main story' and brainchild from middle school. focuses on a fictional city (now being transitioned to a completely fictional world) and its odd, graphic and heartache-inducing happenings. </p>
         <h2 class="bellemoretitle"> bellemore </h2>
         <p> a horror story focusing on the town of Bellemore, Massachusettes and its macabre idol-based religion Rosarium. </p>
@@ -57,5 +56,5 @@
         <p> a generic crime-ridden city with angels and demons. very undeveloped, but has some artwork and characters associated with it. </p>
     </div>
 </body>
-<script src="/mobilesidebar.js"></script>
+<script src="mobilesidebar.js"></script>
 </html>

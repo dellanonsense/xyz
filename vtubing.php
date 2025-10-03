@@ -4,22 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vtubing</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script>
-        $(function(){
-        $("#sidebar").load("/components/sidebar.html");
-        });
-        </script>
-        <script>
-        $(function(){
-        $("#header").load("/components/header.html");
-        });
-    </script>
-    <link href="/assets/styles.css" rel="stylesheet"/>
-    <link href="/assets/sidebar.css" rel="stylesheet"/>
-    <link href="/assets/header.css" rel="stylesheet"/>
-    <link href="/assets/vtubing.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="assets/styles.css" rel="stylesheet"/>
+    <link href="assets/sidebar.css" rel="stylesheet"/>
+    <link href="assets/header.css" rel="stylesheet"/>
+    <link href="assets/vtubing.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -27,20 +16,30 @@
 <style>
 </style>
 <body>
-    <div id="sidebutton" onclick="openNav()"><img src="/assets/openbutton.png"></div>
-    <div id="sidebar"></div>
+    <div id="sidebutton" onclick="openNav()"><img src="assets/openbutton.png"></div>
+    <div id="sidebar">
+                    <?php
+        include "components/sidebar.php";
+                echo callsidebar();
+            ?>  
+    </div>
     <div id="overlay"></div>
     <div class="content">
-        <div id="header"></div>
+          <div id="header">
+            <?php
+        include "components/header.php";
+                echo callheader();
+            ?>    
+            </div>
         <h1> welcome to l'atelier! </h1>
         <h2> ♡ v-streaming ♡ </h2>
         <h2> ♡ <a href="https://dellastreamschedule.super.site/">stream schedule</a> ♡ <a href="https://www.youtube.com/@dellanonsense">youtube</a> ♡</h2>
-        <img src="/assets/vtuber.gif" style="width: 50%; display: grid; margin: auto; padding-bottom: 15px;">
-        <img src="/assets/della ref.webp" style="width: 100%; padding-bottom: 15px;">
+        <img src="assets/vtuber.gif" style="width: 50%; display: grid; margin: auto; padding-bottom: 15px;">
+        <img src="assets/della ref.webp" style="width: 100%; padding-bottom: 15px;">
         <h3> oshi mark: 💌 (love letter) </h3>
         <h3> fan name: nonsensicals </h3>
         <h3> contact e-mail: dellanonsense@gmail.com </h3>
-        <img src="/assets/vtuber logo.webp" width="100%">
+        <img src="assets/vtuber logo.webp" width="100%">
         <p> hello! I'm a (currently offline) vartist! I mainly focus on illustrations and drawing, but also play some games! </p>
         <p> my streams are <b>18+</b> because of topics and language. please respect that! </p>
         <h2> ♡ hashtags ♡ </h2>
@@ -60,5 +59,5 @@
         <p> the “della” you see is one such android. </p>
     </div>
 </body>
-<script src="/mobilesidebar.js"></script>
+<script src="mobilesidebar.js"></script>
 </html>

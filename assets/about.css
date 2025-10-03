@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/bg1.webp");
+    background-image: url("bg1.webp");
     background-repeat: repeat;
 }
 
@@ -17,6 +17,7 @@ body {
 a:hover {
     font-family:'Playfair Display', serif, serif;
     color:  #d80048;;
+    text-align: center;
 }
 
 .nxtxmee {

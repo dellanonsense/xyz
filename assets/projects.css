@@ -1,8 +1,8 @@
 body {
-    background-image: url("/assets/bg2.webp");
+    background-image: url("bg2.webp");
     background-repeat: repeat;
 }
-.content h1, h3, p {
+.content h1, p {
     font-family:'Playfair Display', serif, serif;
     color: black;
     text-align: center;

@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/sdrbg.webp");
+    background-image: url("sdrbg.webp");
     background-repeat: repeat;
 }
 .content h1, h2, p {

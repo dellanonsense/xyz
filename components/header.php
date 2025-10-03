@@ -4,7 +4,7 @@
             <div class="header">
             <div class="top">
             <div class="pfp">
-                <img src="assets/pfp.webp">
+                <img src="../assets/pfp.webp">
             </div>
             <div class="text">
                 <h1> @dellanonsense </h1>
@@ -13,7 +13,7 @@
                 <p> shy + terminally online </p>
             </div>
             </div>
-            <div class="divider"><img src="assets/pinkdivider.webp" style="width: 100%;"></div>
+            <div class="divider"><img src="../assets/pinkdivider.webp" style="width: 100%;"></div>
             </div>
 ';
     }

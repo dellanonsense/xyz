@@ -8,11 +8,6 @@ p {
     color: black;
 }
 
-.blogtitle {
-    line-height: 0.8;
-    text-align: center;
-}
-
 a {
     font-family:'Playfair Display', serif, serif;
     color: #ff82ac;
@@ -23,23 +18,10 @@ a:hover {
     color: #d80048;
 }
 
-ul {
-    list-style: none;
-    line-height: 2;
-}
-
-.titledate {
-    line-height: 0.5;
-}
-
-.titledate h3 {
-    color: #ff82ac;
-}
-
-#nextprev {
+.latestpost {
     text-align: center;
 }
 
-#footer {
-    text-align: center;
+.blogtxt {
+    line-height: 1.8;
 }

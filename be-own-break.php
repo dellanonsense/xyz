@@ -30,6 +30,7 @@
         <h1><a href="https://dellanonsense.itch.io/be-own-break"> BE ♡ OWN ♡ BREAK </a></h1>
         <h2> slave to love in wilted hilts, derived from bluelight to survive </h2>
         <img src="assets/be own break cover.webp" width="100%">
+        <h3><a href="../beownbreakdevlogtag.php"> on-website devlog </a></p>
         <p> "in which the normal, healthy girl has a day out*." </p>
         <p> <i> *many portions of this statement are incorrect </i></p>
         <p style="text-align: center;"> a visual novel about a distorted girl through a distorted perspective in a distorted (but normalized) world. 

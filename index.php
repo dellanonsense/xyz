@@ -27,9 +27,9 @@
             ?>    
             </div>
         <div class="current">
-        <p><b>currently reading:</b><a href="https://www.goodreads.com/book/show/30221892-a-god-in-the-shed?ref=nav_sb_ss_1_17">a god in the shed</a></p>
-        <p><b>currently watching:</b></p>
-        <p><b>currently playing:</b></p>
+        <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/30221892-a-god-in-the-shed?ref=nav_sb_ss_1_17">a god in the shed</a></p>
+        <p><b>currently watching:</b> </p>
+        <p><b>currently playing:</b> </p>
     </div>
     <div class="gallery">
         <img src="assets/ohara lab nurse.webp" width="100%">

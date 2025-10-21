@@ -19,7 +19,8 @@
             </div>
             <?php include "components/blognav.php"; echo callblognav();?>
             <h1> posts tagged #beownbreakdevlog </h1>
-            <a href="posts/25-09-11developmentresumed.php"> 25-09-11 - development resumed </a>
+            <p><a href="posts/25-10-21scriptprogress.php"> 25-10-21 - scripting progress </a></p>
+            <p><a href="posts/25-09-11developmentresumed.php"> 25-09-11 - development resumed </a></p>
         </div>
     </div>
 </body>

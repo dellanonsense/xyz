@@ -31,7 +31,7 @@
         <p> in 7th-8th grade, I wrote a short story for school with the above title. we were learning about magical realism. </p>
         <p> I wrote about a young teen plagued by a mysterious 'nightstalker', a plain metaphor for depression and self-hatred. </p>
         <p> since then, I've developed the story's setting, added characters, and several plotlines. </p>
-        <p> it's even being moved to its own fictional reality, <a href="/eulocyst.html">eulocyst</a>.</p>
+        <p> it's even being moved to its own fictional reality, <a href="/eulocyst.php">eulocyst</a>.</p>
         <p> this story means an unhealthily lot to me. other stories have come and gone, but this remains since 2015.  </p>
     </div>
 </body>

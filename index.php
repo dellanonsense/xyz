@@ -30,7 +30,7 @@
                 <?php include "components/latestpost.php"; echo calllatestpost();?>
             </div>
         <div class="current">
-        <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/30221892-a-god-in-the-shed?ref=nav_sb_ss_1_17">a god in the shed</a> & <a href="https://www.goodreads.com/book/show/36442895-girls-with-sharp-sticks?from_search=true&from_srp=true&qid=scT5Cr3smJ&rank=1">girls with sharp sticks</a><p>
+        <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/30221892-a-god-in-the-shed?ref=nav_sb_ss_1_17">a god in the shed</a></p>
         <p><b>currently watching:</b> </p>
         <p><b>currently playing:</b> <a href="https://store.steampowered.com/app/1273260/Corpse_Party_2021/">corpse party (2021)</p>
     </div>

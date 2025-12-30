@@ -40,7 +40,6 @@
         <h1> @delladrawsense </h1>
         <div class="links">
             <p><a href="https://delladrawsense.tumblr.com/"> tumblr </a>[archive only]</p>
-            <p><a href="https://x.com/delladrawsense"> x/twitter </a>[inactive]</p>
         </div>
         <h1> gamedev </h1>
         <div class="links">

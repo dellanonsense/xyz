@@ -16,7 +16,7 @@
             <p> ♡ <a href="../stories.php"> stories </a>
             <p> ♡ <a href="../projects.php"> projects </a></p>
             <p> ♡ <a href="../illustrations.php"> illustrations </a></p>
-            <p> ♡ <a href="../not_found.php"> writing </a></p>
+            <p> ♡ <a href="../writing.php"> writing </a></p>
         </div>
             <h1> diary & fun </h1>
             <div class="nav">

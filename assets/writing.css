@@ -1,0 +1,49 @@
+body {
+    background-image: url("bg5.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content h1, h2, p {
+    font-family:'Playfair Display', serif, serif;
+    color: black;
+    text-align: center;
+}
+.content a {
+    font-family:'Playfair Display', serif, serif;
+    color:  #ff82ac;
+    text-align: center;
+}
+
+a:hover {
+    font-family:'Playfair Display', serif, serif;
+    color:  #d80048;;
+    text-align: center;
+}
+
+.covergrid {
+    display: grid;
+}
+
+.covergrid img {
+    width: 75%;
+    margin: auto;
+}
+
+#cover {
+    display: grid;
+    grid-row: 1;
+}
+
+@media screen and (max-width : 600px) {
+    .covergrid {
+        display: block;
+    }
+    .covergrid #img {
+        width: auto;
+    }
+    #overlay {
+        height: 1195px;
+    }
+}

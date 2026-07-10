@@ -22,6 +22,7 @@
             </div>
             <?php include "components/blognav.php"; echo callblognav();?>
             <h1> archive </h1>
+            <p><a href="posts/26-07-10bobisonpause.php">26-07-10 - bob is on pause</a> #beownbreakdevlog </p>
             <p><a href="posts/26-02-06writingpageonline.php">26-02-06 - writing page online</a> #updates </p>
             <p><a href="posts/25-12-31xaccdeleted.php">25-12-31 -  x acc deleted</a> #updates <p>
             <p><a href="posts/25-11-25notscriptingbutarting.php">25-11-25 - not scripting, but arting</a> #beownbreakdevlog </p>

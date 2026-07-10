@@ -19,6 +19,7 @@
             </div>
             <?php include "components/blognav.php"; echo callblognav();?>
             <h1> posts tagged #beownbreakdevlog </h1>
+            <p><a href="posts/26-07-10bobisonpause.php"> 26-07-10 - bob is on pause </a></p>
             <p><a href="posts/25-11-25notscriptingbutarting.php"> 25-11-25 - not scripting, but arting </a></p>
             <p><a href="posts/25-10-21scriptprogress.php"> 25-10-21 - scripting progress </a></p>
             <p><a href="posts/25-09-11developmentresumed.php"> 25-09-11 - development resumed </a></p>

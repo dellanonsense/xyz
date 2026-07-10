@@ -29,10 +29,10 @@
         <h1> ♡ projects ♡ </h1>
         <img src="/assets/pinkdivider.webp" width="100%">
         <h3> primary </h3>
-        <p><b><a href="/be-own-break.php">BE ♡ OWN ♡ BREAK</a></b></p>
-        <p><b><a href="/eulocyst.php">eulocyst</a></b></p>
         <img src="/assets/pinkdivider.webp" width="100%">
         <h3> others </h3>
+        <p><b><a href="/be-own-break.php">BE ♡ OWN ♡ BREAK</a></b> [hiatus]</p>
+        <p><b><a href="/eulocyst.php">eulocyst</a></b> [hiatus]</p>
         <p><b><a href="/vtubing.php">vtubing</a></b> [inactive]</p>
     </div>
     </div>

@@ -30,8 +30,8 @@
                 <?php include "components/latestpost.php"; echo calllatestpost();?>
             </div>
         <div class="current">
-        <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/240125928-the-starving-saints?ref=nav_sb_ss_4_15">the starving saints</a></p>
-        <p><b>currently watching:</b> <a href="https://myanimelist.net/anime/54492/Kusuriya_no_Hitorigoto?q=apothecary&cat=anime">the apothecary diaries [S1]</a></p>
+        <p><b>currently reading:</b></p>
+        <p><b>currently watching:</b> <a href="https://myanimelist.net/anime/62913/Needy_Girl_Overdose?q=Needy%20streamer&cat=anime">needy girl overdose</a></p>
         <p><b>currently playing:</b> <a href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/">tomodachi life: living the dream</p>
     </div>
     <div class="gallery">

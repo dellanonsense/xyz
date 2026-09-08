@@ -8,7 +8,7 @@
             </div>
             <div class="text">
                 <h1> @dellanonsense </h1>
-                <p> ♡ 💌 ♡ 25 ♡ she/her ♡ eng. ♡ </p>
+                <p> ♡ 💌 ♡ 26 ♡ she/her ♡ eng. ♡ </p>
                 <p> mental healther illustrator + aspiring positive presence </p>
                 <p> shy + terminally online </p>
             </div>

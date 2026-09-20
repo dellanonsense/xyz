@@ -30,9 +30,9 @@
                 <?php include "components/latestpost.php"; echo calllatestpost();?>
             </div>
         <div class="current">
-        <p><b>currently reading:</b></p>
+        <p><b>currently reading:</b> <a href="https://www.goodreads.com/book/show/29736099-house-of-furies?ac=1&from_search=true&qid=5ASLUqjzDU&rank=1">house of furies</a></p>
         <p><b>currently watching:</b> <a href="https://myanimelist.net/anime/62913/Needy_Girl_Overdose?q=Needy%20streamer&cat=anime">needy girl overdose</a></p>
-        <p><b>currently playing:</b> <a href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/">tomodachi life: living the dream</p>
+        <p><b>currently playing:</b> <a href="https://www.nintendo.com/us/store/products/tomodachi-life-living-the-dream-switch/">tomodachi life: living the dream</a> & <a href="https://www.nintendo.com/us/store/products/pikmin-4-switch/">pikmin 4</a></p>
     </div>
     <div class="gallery">
         <img src="assets/ohara lab nurse.webp" width="100%">
